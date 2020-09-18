@@ -1,4 +1,4 @@
-import _ from 'lodash'
+// import _ from 'lodash'
 
 export default (state={},action)=>{
     switch(action.type){
@@ -7,4 +7,4 @@ export default (state={},action)=>{
         default:
             return state
     }
-}  
+} 
